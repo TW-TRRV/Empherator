@@ -1,6 +1,6 @@
 <section class="relative h-[600px] w-full flex items-center overflow-hidden border-b border-obscure-lightest">
     <div class="absolute inset-0 -z-10 bg-cover bg-center grayscale" 
-         style="background-image: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 100%), url('{{ asset('images/home-hero.png') }}')">
+         style="background-image: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 100%), url('{{ asset('assets/home-hero.png') }}')">
     </div>
 
     <div class="px-8 md:px-20">
