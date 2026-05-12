@@ -8,7 +8,7 @@
         <h1 class="text-white text-6xl md:text-8xl font-black mb-6 tracking-tighter">THE NEW ERA</h1>
         <p class="text-clarity-light max-w-lg mb-10 text-lg">Engineered for those who demand absolute precision. Experience zero-latency execution.</p>
         <div class="flex gap-4">
-            <a href="/catalog" class="px-10 py-4 bg-emph hover:bg-emph-light text-white font-bold transition-all transform hover:scale-105">EXPLORE HARDWARE</a>
+            <a href="{{ route('catalogo') }}" class="px-10 py-4 bg-emph hover:bg-emph-light text-white font-bold transition-all transform hover:scale-105">EXPLORE HARDWARE</a>
             <a href="/systems" class="px-10 py-4 border border-clarity-light text-clarity-light hover:text-white font-bold transition-all">VIEW SYSTEMS</a>
         </div>
     </div>

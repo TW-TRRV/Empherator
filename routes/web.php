@@ -1,10 +1,9 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
-use App\Http\Controllers\CatalogoController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\CartController;
 use Illuminate\Support\Facades\Route;
-
-
 
 use App\Http\Controllers\HomeController;
 
@@ -26,13 +25,26 @@ require __DIR__.'/auth.php';
 
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
-Route::get('/catalogo', [CatalogoController::class, 'viewCatalogo'])->name('catalogo');
+Route::get('/catalogo', [ProductController::class, 'index'])->name('catalogo');
 
 use App\Http\Controllers\Auth\LoginController;
 
 Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [LoginController::class, 'login']);
 
+Route::get('/products/{id}', [ProductController::class, 'show'])->name('products.show');
 
-// El {id} es un parámetro que cambia según el producto esto para mostrar la información de cada producto individualmente   
-Route::get('/product/{id}', [CatalogoController::class, 'showProduct'])->name('product.show');
+
+
+use Illuminate\Http\Request;
+Route::post('/cart/add/{id}', function (Request $request, $id) {
+    // Lógica básica para agregar al carrito (usando sesión para simplicidad)
+    $cart = session()->get('cart', []);
+    $cart[] = ['id' => $id, 'quantity' => 1]; // Simplificado, agregar lógica real después
+    session()->put('cart', $cart);
+    return redirect()->back()->with('success', 'Producto agregado al carrito');
+})->name('cart.add');
+
+
+
+Route::get('/cart', [CartController::class, 'index'])->name('cart.index');
