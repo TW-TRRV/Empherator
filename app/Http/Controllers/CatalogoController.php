@@ -21,4 +21,11 @@ class CatalogoController extends Controller
         // 2. Pasamos la variable $products a la vista
         return view('catalogo', compact('products'));
     }
+
+    public function showProduct($id)
+        {
+    // Aquí buscamos el producto en la base de datos
+    //solo mandamos el id a la vista para mostrarlo por ahora
+        return view('product-detail', ['id' => $id]);
+    }
 }

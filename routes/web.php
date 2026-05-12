@@ -32,3 +32,7 @@ use App\Http\Controllers\Auth\LoginController;
 
 Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [LoginController::class, 'login']);
+
+
+// El {id} es un parámetro que cambia según el producto esto para mostrar la información de cada producto individualmente   
+Route::get('/product/{id}', [CatalogoController::class, 'showProduct'])->name('product.show');
