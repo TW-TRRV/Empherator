@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Estos son los colores que usas en tu HTML
+        // Estos son los colores 
         'obscure-darker': '#050505',
         'obscure-light': '#111111',
         'obscure-lightest': '#222222',
