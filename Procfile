@@ -1,1 +1,0 @@
-web: php artisan migrate --force && frankenphp run --config /etc/caddy/Caddyfile
