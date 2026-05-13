@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         // Estos son los colores 
+        'obscure': '#111111', 
         'obscure-darker': '#050505',
         'obscure-light': '#111111',
         'obscure-lightest': '#222222',
