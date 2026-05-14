@@ -9,10 +9,10 @@
         
         <section class="mb-12 px-2">
             <h1 class="text-4xl md:text-6xl font-bold mb-4 tracking-tight uppercase">
-                Performance Hardware
+                CATALOGO
             </h1>
             <p class="text-clarity-light text-sm md:text-base max-w-2xl">
-                Engineered for the elite. Explore the latest in zero-latency peripherals and high-fidelity computing components.
+                Descubre nuestra selección de productos de alta calidad para tu setup de gaming.
             </p>
         </section>
 
@@ -66,7 +66,7 @@
                         {{-- BOTÓN DINÁMICO: Ahora redirige al detalle --}}
                         <a href="{{ route('products.show', $product['id']) }}" 
                            class="flex-1 bg-emph hover:bg-emph-dark text-white text-xs font-black tracking-[0.2em] h-14 transition-all uppercase flex items-center justify-center">
-                            View Specs
+                            COMPRA AHORA
                         </a>
                         
                         <button class="w-14 h-14 border border-obscure-lightest flex items-center justify-center text-white hover:border-emph transition-colors group/fav">
