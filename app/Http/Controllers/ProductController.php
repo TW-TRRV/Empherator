@@ -10,66 +10,66 @@ class ProductController extends Controller
     private $products = [
         [
             'id' => 1,
-            'name' => 'NEXUS X-900 GPU',
-            'category' => 'COMPONENTS',
-            'price' => 1299,
-            'image' => 'https://placehold.co/600x400/0a0a0a/FFF?text=X-900+GPU',
-            'description' => 'High-performance GPU for gaming and computing.'
+            'name' => 'Procesador AMD Ryzen 7 7800x3D',
+            'category' => 'COMPONENTES',
+            'price' => 1999.90,
+            'image' => 'imagenes/productos/componentes/Procesador AMD Ryzen 7 7800x3D.jpeg',
+            'description' => 'Procesador AMD Ryzen 7 7800X3D (4.2GHz - 5.0GHz, 96MB V-Cache, AM5, 8 Núcleos'
         ],
         [
             'id' => 2,
-            'name' => 'CYPHER CORE TKL',
-            'category' => 'PERIPHERALS',
-            'price' => 189,
-            'image' => 'https://placehold.co/600x400/0a0a0a/FFF?text=CORE+TKL',
+            'name' => 'Tarjeta de video GeForce RTX 5060 Ti',
+            'category' => 'COMPONENTES',
+            'price' => 1749.90,
+            'image' => 'imagenes/productos/componentes/Tarjeta de video GeForce RTX 5060 Ti.jpeg',
             'description' => 'Tenkeyless mechanical keyboard with RGB lighting.'
         ],
         [
             'id' => 3,
-            'name' => 'VELOCITY G-1',
-            'category' => 'PERIPHERALS',
-            'price' => 125,
-            'image' => 'https://placehold.co/600x400/0a0a0a/FFF?text=VELOCITY+G-1',
+            'name' => 'Tarjeta de video Radeon RX 9060 XT',
+            'category' => 'COMPONENTES',
+            'price' => 2049.90,
+            'image' => 'imagenes/productos/componentes/Tarjeta de video Radeon RX 9060 XT.jpeg',
             'description' => 'Wireless gaming mouse with precision sensor.'
         ],
         [
             'id' => 4,
             'name' => 'ZENITH 16-CORE CPU',
-            'category' => 'COMPONENTS',
+            'category' => 'COMPONENTES',
             'price' => 549,
-            'image' => 'https://placehold.co/600x400/0a0a0a/FFF?text=ZENITH+CPU',
+            'image' => 'imagenes/productos/componentes/zenith-16-core.png',
             'description' => 'Powerful 16-core processor for multitasking.'
         ],
         [
             'id' => 5,
             'name' => 'SONIC VOID PRO',
-            'category' => 'PERIPHERALS',
+            'category' => 'COMPONENTES',
             'price' => 299,
-            'image' => 'https://placehold.co/600x400/0a0a0a/FFF?text=SONIC+VOID',
+            'image' => 'imagenes/productos/componentes/sonic-void-pro.png',
             'description' => 'Noise-cancelling gaming headset.'
         ],
         [
             'id' => 6,
             'name' => 'WARP 2TB NVME',
-            'category' => 'COMPONENTS',
+            'category' => 'COMPONENTES',
             'price' => 210,
-            'image' => 'https://placehold.co/600x400/0a0a0a/FFF?text=WARP+NVME',
+            'image' => 'imagenes/productos/componentes/warp-2tb-nvme.png',
             'description' => 'Fast 2TB NVMe SSD for storage.'
         ],
         [
             'id' => 7,
             'name' => 'K-900 SPECTRAL',
-            'category' => 'Keyboards',
+            'category' => 'COMPONENTES',
             'price' => 249,
-            'image' => 'https://placehold.co/600x400/000000/FFF?text=K-900',
+            'image' => 'imagenes/productos/componentes/k-900-spectral.png',
             'description' => 'Engineered for the absolute edge. Zero-latency mechanical switches encased in an aircraft-grade aluminum chassis.'
         ],
         [
             'id' => 8,
             'name' => 'M-PRIME MOUSE',
-            'category' => 'Mice',
+            'category' => 'AUDIO',
             'price' => 159,
-            'image' => 'https://placehold.co/600x400/000000/FFF?text=M-PRIME',
+            'image' => 'imagenes/productos/audio/m-prime-mouse.png',
             'description' => '26,000 DPI Sensor | 54g Total Weight. The new standard for competitive precision.'
         ],
     ];

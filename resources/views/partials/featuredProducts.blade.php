@@ -1,9 +1,9 @@
 @php
     // Simulamos los productos. Luego las tramemos de la Base de Datos.
     $featuredProducts = [
-        ['id' => 1, 'name' => 'EMPH-1', 'category' => 'MOUSE', 'price' => '$120', 'image' => 'https://placehold.co/600x400/09090b/ADC6FF?text=EMPH-1'],
-        ['id' => 2, 'name' => 'X-PRO', 'category' => 'KEYBOARD', 'price' => '$180', 'image' => 'https://placehold.co/600x400/09090b/ADC6FF?text=X-PRO'],
-        ['id' => 3, 'name' => 'Z-AUDIO', 'category' => 'HEADSET', 'price' => '$200', 'image' => 'https://placehold.co/600x400/09090b/ADC6FF?text=Z-AUDIO'],
+        ['id' => 1, 'name' => 'Tarjeta de video GeForce RTX 5060 Ti', 'category' => 'COMPONENTES', 'price' => '$1749.90', 'image' => asset("imagenes/productos/componentes/Tarjeta de video GeForce RTX 5060 Ti.jpeg")],
+        ['id' => 2, 'name' => 'Tarjeta de video Radeon RX 9060 XT', 'category'=> 'COMPONENTES', 'price' => '$2049.90', 'image' => asset("imagenes/productos/componentes/Tarjeta de video Radeon RX 9060 XT.jpeg")],
+        ['id' => 3, 'name' => 'Procesador AMD Ryzen 7 7800x3D', 'category' => 'COMPONENTES', 'price' => '$1999.90', 'image' => asset("imagenes/productos/componentes/Procesador AMD Ryzen 7 7800x3D.jpeg")],
     ];
 @endphp
 
@@ -13,10 +13,10 @@
         {{-- Header de la Sección --}}
         <div class="text-center mb-12">
             <p class="text-emph text-xs font-bold tracking-widest uppercase mb-2">
-                FEATURED HARDWARE
+                LOS MAS VENDIDO DE LA SEMANA
             </p>
             <h2 class="text-4xl md:text-5xl font-bold tracking-tight">
-                PRECISION TOOLS
+                PRODUCTOS DESTACADOS
             </h2>
         </div>
 
@@ -59,7 +59,7 @@
                                 href="{{ route('catalogo') }}" 
                                 class="w-full bg-emph hover:bg-emph-light text-clarity-lighter text-xs font-bold tracking-widest h-12 flex items-center justify-center transition-colors duration-300"
                             >
-                                VIEW PRODUCT
+                                VER DETALLES
                             </a>
                         </div>
                     </div>

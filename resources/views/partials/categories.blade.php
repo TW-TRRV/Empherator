@@ -1,15 +1,15 @@
 @php
     $cats = [
-        ['name' => 'MOUSE', 'img' => 'https://placehold.co/600x800?text=Mouse'],
-        ['name' => 'KEYBOARDS', 'img' => 'https://placehold.co/600x800?text=Keyboard'],
-        ['name' => 'AUDIO', 'img' => 'https://placehold.co/600x800?text=Audio'],
-        ['name' => 'COMPONENTS', 'img' => 'https://placehold.co/600x800?text=Parts'],
+        ['name' => 'MOUSE', 'img' => asset("imagenes/categorias/mouse.png")],
+        ['name' => 'TECLADOS', 'img' => asset("imagenes/categorias/keybor.png")],
+        ['name' => 'AUDIO', 'img' => asset("imagenes/categorias/audio.png")],
+        ['name' => 'COMPONENTES', 'img' => asset("imagenes/categorias/componentes.png")],
     ];
 @endphp
 
 <section class="py-20 px-8 md:px-20 bg-obscure-darker">
     <div class="flex justify-between items-end mb-10 border-b border-obscure-lightest pb-4">
-        <h2 class="text-3xl font-bold border-b-4 border-emph pb-2 -mb-[20px]">CATEGORIES</h2>
+        <h2 class="text-3xl font-bold border-b-4 border-emph pb-2 -mb-[20px]">CATEGORIAS</h2>
         {{-- Asegúrate que el link a "VIEW ALL" use el nombre de tu ruta del catálogo --}}
         <a href="{{ route('catalogo') }}" class="text-xs font-bold tracking-widest hover:text-emph transition-all text-clarity-light">VIEW ALL &rarr;</a>
     </div>

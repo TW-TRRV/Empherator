@@ -41,7 +41,7 @@
                 
                 {{-- Enlace en la imagen --}}
                 <a href="{{ route('products.show', $product['id']) }}" class="aspect-video w-full bg-black flex items-center justify-center p-12 overflow-hidden cursor-pointer">
-                    <img src="{{ $product['image'] }}" 
+                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}" alt="{{ $product['name'] }}"
                          alt="{{ $product['name'] }}" 
                          class="object-contain max-h-full drop-shadow-[0_20px_50px_rgba(37,99,235,0.3)] group-hover:scale-110 transition-transform duration-700" />
                 </a>

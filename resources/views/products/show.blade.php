@@ -71,7 +71,7 @@
                     {{-- Price --}}
                     <div class="flex items-end justify-between border-b border-neutral-700 pb-6 mb-10">
                         <span class="text-xs uppercase tracking-[0.2em] text-neutral-400 font-bold">
-                            Price
+                            Precio
                         </span>
                         <span class="text-5xl font-black text-white">
                             ${{ number_format($product->price, 0) }}
