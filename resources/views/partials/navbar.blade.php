@@ -136,10 +136,10 @@
                     </h3>
 
                     <ul class="space-y-3">
-                        <li><a href="#" class="hover:text-emph-light transition-colors">Processors</a></li>
-                        <li><a href="#" class="hover:text-emph-light transition-colors">Graphics Cards</a></li>
-                        <li><a href="#" class="hover:text-emph-light transition-colors">Motherboards</a></li>
-                        <li><a href="#" class="hover:text-emph-light transition-colors">Memory</a></li>
+                        <li><a href="#" class="hover:text-emph-light transition-colors">Procesadores</a></li>
+                        <li><a href="#" class="hover:text-emph-light transition-colors">Tarjetas Gráficas</a></li>
+                        <li><a href="#" class="hover:text-emph-light transition-colors">Placas Base</a></li>
+                        <li><a href="#" class="hover:text-emph-light transition-colors">Memoria</a></li>
                     </ul>
                 </div>
 
@@ -158,26 +158,26 @@
 
                 <div>
                     <h3 class="text-sm font-bold text-clarity-light mb-4">
-                        Price Range
+                        Rango de precio
                     </h3>
 
                     <ul class="space-y-3">
-                        <li><a href="#" class="hover:text-emph-light transition-colors">Under $100</a></li>
+                        <li><a href="#" class="hover:text-emph-light transition-colors">Menos de $100</a></li>
                         <li><a href="#" class="hover:text-emph-light transition-colors">$100 - $300</a></li>
                         <li><a href="#" class="hover:text-emph-light transition-colors">$300 - $600</a></li>
-                        <li><a href="#" class="hover:text-emph-light transition-colors">Over $600</a></li>
+                        <li><a href="#" class="hover:text-emph-light transition-colors">Más de $600</a></li>
                     </ul>
                 </div>
 
                 <div>
                     <h3 class="text-sm font-bold text-clarity-light mb-4">
-                        Ratings
+                        Valoración
                     </h3>
 
                     <ul class="space-y-3">
-                        <li><a href="#" class="hover:text-emph-light transition-colors">4 Stars & Up</a></li>
-                        <li><a href="#" class="hover:text-emph-light transition-colors">3 Stars & Up</a></li>
-                        <li><a href="#" class="hover:text-emph-light transition-colors">2 Stars & Up</a></li>
+                        <li><a href="#" class="hover:text-emph-light transition-colors">4 Estrellas a más</a></li>
+                        <li><a href="#" class="hover:text-emph-light transition-colors">3 Estrellas a más</a></li>
+                        <li><a href="#" class="hover:text-emph-light transition-colors">2 Estrellas a más</a></li>
                     </ul>
                 </div>
 
