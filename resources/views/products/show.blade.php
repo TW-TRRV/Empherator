@@ -4,7 +4,7 @@
 <div
     class="bg-neutral-950 min-h-screen text-white font-sans"
     x-data="{
-        mainImage: '{{ $product->image }}',
+        mainImage: '{{ asset('') }}' + '{{ $product->image }}',
         activeSwitch: 'standard',
         qty: 1
     }"
@@ -40,7 +40,7 @@
                             class="aspect-square bg-neutral-800 border-2 overflow-hidden transition-all"
                         >
                             <img
-                                src="{{ $product->image }}"
+                                src="{{ asset($product->image) }}"
                                 alt="{{ $product->name }} thumbnail {{ $i }}"
                                 class="w-full h-full object-contain p-2"
                             >
@@ -78,36 +78,6 @@
                         </span>
                     </div>
  
-                    {{-- Switch Type --}}
-                    <div class="mb-10">
-                        <p class="text-xs uppercase tracking-[0.2em] text-neutral-400 font-bold mb-4">
-                            Switch Type
-                        </p>
-                        <div class="grid grid-cols-2 gap-4">
- 
-                            <button
-                                @click="activeSwitch = 'standard'"
-                                :class="activeSwitch === 'standard'
-                                    ? 'border-blue-500 text-blue-500 bg-neutral-900'
-                                    : 'border-neutral-700 hover:border-blue-500 text-white'"
-                                class="h-12 border-2 text-xs font-black uppercase tracking-widest transition-all duration-200 cursor-pointer"
-                            >
-                                Standard Core
-                            </button>
- 
-                            <button
-                                @click="activeSwitch = 'overclock'"
-                                :class="activeSwitch === 'overclock'
-                                    ? 'border-blue-500 text-blue-500 bg-neutral-900'
-                                    : 'border-neutral-700 hover:border-blue-500 text-white'"
-                                class="h-12 border-2 text-xs font-black uppercase tracking-widest transition-all duration-200 cursor-pointer"
-                            >
-                                Overclock Edition
-                            </button>
- 
-                        </div>
-                    </div>
- 
                     {{-- Add to Cart --}}
                     <button
                         @click="
@@ -122,7 +92,7 @@
                                     specs: '{{ addslashes($product->description) }}',
                                     price: {{ $product->price }},
                                     quantity: qty,
-                                    image: '{{ $product->image }}'
+                                    image: '{{ asset($product->image) }}'
                                 });
                             }
                             localStorage.setItem('cart', JSON.stringify(cart));
