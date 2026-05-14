@@ -22,7 +22,7 @@ class ProductController extends Controller
             'category' => 'COMPONENTES',
             'price' => 1749.90,
             'image' => 'imagenes/productos/componentes/Tarjeta de video GeForce RTX 5060 Ti.jpeg',
-            'description' => 'Tenkeyless mechanical keyboard with RGB lighting.'
+            'description' => 'Tarjeta de video NVIDIA GeForce RTX 5060 Ti con 8GB de memoria GDDR6, ideal para gaming en 1080p y 1440p con trazado de rayos.'
         ],
         [
             'id' => 3,
@@ -30,31 +30,31 @@ class ProductController extends Controller
             'category' => 'COMPONENTES',
             'price' => 2049.90,
             'image' => 'imagenes/productos/componentes/Tarjeta de video Radeon RX 9060 XT.jpeg',
-            'description' => 'Wireless gaming mouse with precision sensor.'
+            'description' => 'Graficos AMD Radeon RX 9060 XT con 8GB de memoria GDDR6, ideal para gaming en 1080p y 1440p.'
         ],
         [
             'id' => 4,
-            'name' => 'ZENITH 16-CORE CPU',
+            'name' => 'Disco SSD 1 TB Predator GM6 PCle Gen4',
             'category' => 'COMPONENTES',
             'price' => 549,
-            'image' => 'imagenes/productos/componentes/zenith-16-core.png',
-            'description' => 'Powerful 16-core processor for multitasking.'
+            'image' => 'imagenes/productos/componentes/Disco SSD 1 TB Predator GM6 PCle Gen4.jpg',
+            'description' => 'El SSD Predator GM6 1TB es una unidad NVMe PCIe Gen4 x4 M.2 2280 de alto rendimiento diseñada para gaming, edición de video y PS5'
         ],
         [
             'id' => 5,
-            'name' => 'SONIC VOID PRO',
-            'category' => 'COMPONENTES',
-            'price' => 299,
-            'image' => 'imagenes/productos/componentes/sonic-void-pro.png',
-            'description' => 'Noise-cancelling gaming headset.'
+            'name' => 'Redragon Ucal Pro K673 Teclado Inalábrico Switch Rojo',
+            'category' => 'TECLADOS',
+            'price' => 329.90,
+            'image' => 'imagenes/productos/teclados/Redragon Ucal Pro K673 Teclado Inalábrico Switch Rojo.jpeg',
+            'description' => 'Teclado mecánico inalábrico con interruptores Rojo, ideal para gaming.'
         ],
         [
             'id' => 6,
-            'name' => 'WARP 2TB NVME',
-            'category' => 'COMPONENTES',
-            'price' => 210,
-            'image' => 'imagenes/productos/componentes/warp-2tb-nvme.png',
-            'description' => 'Fast 2TB NVMe SSD for storage.'
+            'name' => 'AUDIFONO LOGITECH GPRO X 2  INALAMBRICO  7.1  BLANCO',
+            'category' => 'AUDIO',
+            'price' => 840.42,
+            'image' => 'imagenes/productos/audio/d.jpeg',
+            'description' => 'Audífono Logitech G Pro X 2 inalámbrico con sonido envolvente 7.1, diseñado para gamers profesionales que buscan calidad de audio y comodidad.'
         ],
         [
             'id' => 7,
